@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: #ededed;
+}
+
+.head,
+.c-head {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 15px;
+    background: #233c4e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(34, 113, 210);
+}
+
+.about {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(34, 113, 210);
+}
+
+.about-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.about .about-img img{
+    width: 47%;
+    margin: 50px 13vw;
+    display: flex;
+    border-radius: 50px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.btn-box a {
+    display: flex;
+    width: 163px;
+    height: 42px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #00abf0;
+    text-decoration: none;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.project {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.project .pro-content h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    margin: 0 43vw;
+}
+
+.pro-content .box {
+    background: white;
+    width: 68vw;
+    height: 2px;
+    margin: 56px 15vw;
+    display: flex;
+}
+
+.pro-content .box .vertical {
+    background: white;
+    width: 1px;
+    height: 70px;
+    margin: 0 100px;
+}
+
+.pro-img {
+    width: 40px;
+    position: relative;
+    top: -43px;
+    left: -17px;
+    border: 2px solid #00abf0;
+    background-color: #00abf0;
+    border-radius: 20px;
+}
+
+.ver-content {
+    position: relative;
+    top: 28px;
+    width: 150px;
+    color: rgb(34, 113, 210);
+    font-size: 17px;
+}
+
+.ver-desc {
+    position: relative;
+    top: 36px;
+    color: white;
+    width: 150px;
+    font-size: 11px;
+}
+
+.exp {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.exp h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    margin: 0 32vw;
+}
+
+.exp h4 {
+    font-size: 25px;
+    color: rgb(34, 113, 210);
+}
+
+.line hr {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    top: 32vh;
+}
+
+.contact h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    margin: 0 42vw;
+}
+
+.form {
+    max-width: 500px;
+    margin: 35px auto;
+}
+
+.form input {
+    margin: 15px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid #00abf0;
+    border-radius: 6px;
+    background: #adbdc9;
+}
+
+.btn {
+    border: 2px solid #00abf0;
+    border-radius: 6px;
+    padding: 10px 15px;
+    background: #adbdc9;
+    color: #081b29;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 195px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+}
+
+.profiles {
+    height: 70px;
+    background: #233c4e;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profiles a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.profiles a:hover {
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    color: white;
+}
+
+.cover-head h1 {
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.cover-text h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.cover-text2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center
+}
+
+.name,
+#element {
+    color: rgb(34, 113, 210);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1500px){
+    .about{
+        flex-direction: column-reverse;
+    }
+}
